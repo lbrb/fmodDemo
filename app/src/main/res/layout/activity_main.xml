@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="cn.migu.hasika.fmodechange.MainActivity">
+
+    <Button
+        android:id="@+id/normal"
+        android:text="正常声音"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/more_gaoguai"
+        android:text="再说快点"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/more_huisheng"
+        android:text="再多点回声"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/more_luoli"
+        android:text="再萝莉点"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/more_dashu"
+        android:text="再大叔点"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+
+    <Button
+        android:id="@+id/more_huanyuan"
+        android:text="还原"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+
+    <Button
+        android:id="@+id/dashu"
+        android:text="大叔"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/luoli"
+        android:text="萝莉"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+
+    <Button
+        android:id="@+id/gaoguai"
+        android:text="搞怪"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+    <Button
+        android:id="@+id/kongling"
+        android:text="空灵"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nativePlay"/>
+
+
+</LinearLayout>
